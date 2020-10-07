@@ -19,6 +19,8 @@ steps:
 
 - script: |
    echo "clonando sitio web"
+   git config --global user.email "felipe.rojasg@alumnos.uv.cl"
+   git config --global user.email "felipe.rojasg"
    git clone https://github.com/FelipeRojas1998/Myweb-page2.git web   
 
    echo "creando carpeta en un nivel más atrás"
